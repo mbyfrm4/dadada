@@ -1,0 +1,123 @@
+main {
+  max-width: 800px;
+  margin: auto;
+  padding: 40px;
+}
+
+.verification {
+  text-align: center;
+}
+
+.header-content {
+  font-size: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  margin-bottom: 50px;
+}
+
+.icon {
+  width: 80px;
+}
+
+.alert {
+  display: flex;
+  align-items: center;
+  background-color: #fff3f3;
+  border-left: 4px solid #b31f1f;
+  padding: 15px;
+  border-radius: 5px;
+  color: #b31f1f;
+  font-size: 28px;
+  margin-bottom: 160px;
+}
+
+.alert i {
+  font-size: 24px;
+  margin-right: 10px;
+}
+
+.verification-form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.card-upload {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  border: 5px dashed #ddd;
+  border-radius: 8px;
+  transition: background-color 0.3s ease;
+  margin-bottom: 50px;
+}
+
+.card-upload:hover {
+  background-color: #f0f8ff;
+}
+
+.card-upload label {
+  font-size: 40px;
+}
+
+input[type="file"] {
+  display: none;
+}
+
+.btn-sm {
+  font-size: 36px; /* Augmente la taille de la police */
+  padding: 20px 40px; /* Augmente le padding pour un bouton plus large */
+  margin-top: 50px;
+  margin-bottom: 300px;
+  width: 100%; /* Si tu souhaites qu'il prenne toute la largeur */
+
+}
+
+
+.code-otp{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 150px;
+}
+
+.num-otp{
+  width: 100px;
+  height: 100px;
+  font-size: 50px;
+  border: 1px solid black;
+  padding-left: 38px;
+  padding-right: 25px;
+}
+
+.btn-otp {
+  font-size: 36px; /* Augmente la taille de la police */
+  padding: 20px 40px; /* Augmente le padding pour un bouton plus large */
+  margin-top: 50px;
+  margin-bottom: 300px;
+  width: 100%; /* Si tu souhaites qu'il prenne toute la largeur */
+}
+
+.page-conc{
+  display: flex;
+  justify-content: center;
+}
+
+
+.partconclusion{
+  width: 100%;
+  height: 500px;
+  text-align: center;
+  font-size: 30px;
+  padding: 20px ;
+  line-height: 40px;
+  margin-bottom: 130px;
+
+}
+
+.imagesucces{
+  width: 100px;
+}

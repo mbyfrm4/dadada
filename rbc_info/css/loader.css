@@ -1,0 +1,133 @@
+* {
+  font-family: 'Arial', sans-serif;
+  box-sizing: border-box;
+  transition: all 0.3s ease;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #f5f7fa;
+  color: #333;
+}
+
+header {
+  background-color: #004080;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.left {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.rbc-logo {
+  width: 80px;
+}
+
+.logo-text {
+  font-size: 34px;
+  color: white;
+  font-weight: bold;
+}
+
+.right {
+  display: flex;
+  gap: 15px;
+}
+
+.btn-go {
+  padding: 15px 30px;
+  border: none;
+  font-size: 30px;
+  cursor: pointer;
+}
+
+.yellow {
+  background-color: #ffd700;
+  color: #004080;
+}
+
+.blue {
+  background-color: #004080;
+  color: white;
+}
+
+/* Conteneur du préchargeur avec marges pour espacement */
+.boite-load {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 300px auto; /* Espace entre le rond et le header/footer */
+}
+
+#preloader {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.spinner {
+  border: 5px solid rgba(0, 0, 0, 0.1);
+  border-top: 5px solid #004080;
+  border-radius: 50%;
+  width: 80px;
+  height: 80px;
+  animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+footer {
+  background-color: rgb(0, 106, 195);
+  padding-top: 50px;
+  padding-left: 50px;
+  padding-bottom: 50px;
+}
+
+.part {
+  margin-left: 20px;
+  margin-bottom: 60px;
+}
+
+.part p {
+  margin-bottom: 35px;
+}
+
+.text-titre {
+  font-size: 14px;
+  font-weight: bold;
+  color: white;
+}
+
+.sec-2 {
+  font-size: 13px;
+  color: white;
+}
+
+.img-footer {
+  width: 300px;
+}
+
+.footer-2 {
+  padding: 10px;
+  background-color: rgb(104, 104, 104);
+  color: white;
+  margin: 0;
+  font-size: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}

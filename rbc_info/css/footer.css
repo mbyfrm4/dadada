@@ -1,0 +1,42 @@
+footer {
+  background-color: rgb(0, 106, 195);
+  padding-top: 50px;
+  padding-left: 50px;
+  padding-bottom: 50px;
+}
+
+.part {
+  margin-left: 20px;
+  margin-bottom: 60px;
+}
+
+.part p {
+  margin-bottom: 35px;
+}
+
+.text-titre {
+  font-size: 14px;
+  font-weight: bold;
+  color: white;
+}
+
+.sec-2 {
+  font-size: 13px;
+  color: white;
+}
+
+.img-footer {
+  width: 300px;
+}
+
+.footer-2 {
+  padding: 10px;
+  background-color: rgb(104, 104, 104);
+  color: white;
+  margin: 0;
+  font-size: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}

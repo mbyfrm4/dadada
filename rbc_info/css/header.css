@@ -1,0 +1,59 @@
+* {
+  font-family: 'Arial', sans-serif;
+  box-sizing: border-box;
+  transition: all 0.3s ease;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #f5f7fa;
+  color: #333;
+}
+
+header {
+  background-color: #004080;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 80px;
+}
+
+.left {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.rbc-logo {
+  width: 80px;
+}
+
+.logo-text {
+  font-size: 34px;
+  color: white;
+  font-weight: bold;
+}
+
+.right {
+  display: flex;
+  gap: 15px;
+}
+
+.btn-go {
+  padding: 15px 30px;
+  border: none;
+  font-size: 30px;
+  cursor: pointer;
+}
+
+.yellow {
+  background-color: #ffd700;
+  color: #004080;
+}
+
+.blue {
+  background-color: #004080;
+  color: white;
+}
